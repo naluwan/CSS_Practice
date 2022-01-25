@@ -9,7 +9,23 @@
 </head>
 <body>
   <nav class="sidebar">
-
+    <div class="sidebar__home"></div>
+    <div class="sidebar__menu">
+      <div class="sidebar__menu__link sidebar__menu__link--frame sidebar__menu__link--active">
+        <img src="./icons/frame.svg" alt="frame">
+      </div>
+      <div class="sidebar__menu__link sidebar__menu__link--folder">
+        <img src="./icons/folder.svg" alt="folder">
+      </div>
+      <div class="sidebar__menu__link sidebar__menu__link--mail">
+        <img src="./icons/mail.svg" alt="mail">
+      </div>
+      <!-- dark mode -->
+      <div class="sidebar__menu__link">
+        <label for="dark__mode__toggle" class="sidebar__darkmode__label"></label>
+        <input type="checkbox" class="sidebar__darkmode__input" id="dark__mode__toggle">
+      </div>
+    </div>
   </nav>
   
   <div class="main">
