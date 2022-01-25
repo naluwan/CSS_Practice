@@ -255,3 +255,17 @@ body {
 .sidebar__darkmode__input {
   display: none;
 }
+
+.table__row__checked {
+  background-color: var(--main-color);
+}
+
+.main__table {
+  position: relative;
+}
+
+thead {
+  position: absolute;
+  top:0;
+}
+
