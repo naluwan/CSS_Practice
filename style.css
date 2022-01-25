@@ -51,6 +51,23 @@ td {
   --darkmode-toggle-url: url("https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/darkmode-on.svg");
 }
 
+[data-theme='dark'] {
+  --main-dark: #3a3a3a;
+  --grey-1: #e4e4e4;
+  --background-grey: #202020;
+  --main-color: transparent;
+  --border-color: #e4e4e4;
+  --zebra-color: #575757;
+  --header-color: #2e2e2e;
+  --table-grey-text: rgba(255, 255, 255, 37%);
+  --white: white;
+  --main-text-color: white;
+  --header-text-color: #aaaaaa;
+  --table-background-color: #3a3a3a;
+  --logo-url: url("https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/logo-dark.svg");
+  --darkmode-toggle-url: url("https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/darkmode-off.svg");
+}
+
 html {
   font-size: 14px;
   height: 100%;
