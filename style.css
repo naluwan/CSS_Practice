@@ -50,6 +50,7 @@ td {
   --logo-url: url("https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/logo.svg");
   --darkmode-toggle-url: url("https://raw.githubusercontent.com/ALPHACamp/WFE-data-table/0f97f3113bff18353154b8644eb0b31fff2a3bef/icons/darkmode-on.svg");
 }
+
 html {
   font-size: 14px;
   height: 100%;
@@ -86,4 +87,111 @@ body {
 
 .main__table {
   background: var(--table-background-color);
+}
+
+.table__header {
+  background: var(--header-color);
+  color: var(--header-text-color);
+}
+
+.table__row {
+  height: 50px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.table__cell {
+  text-align: center;
+}
+
+.table__cell--checkbox {
+  width: 50px;
+}
+
+.table__cell--id {
+  width: 80px;
+}
+
+.table__cell--name {
+  width: 140px;
+}
+
+.table__cell--advertiser {
+  width: 140px;
+}
+
+.cell__advertiser__line {
+  display: block;
+}
+
+.cell__advertiser__line--group {
+  color: var(--table-grey-text);
+}
+
+.table__cell--description {
+  width: 200px;
+}
+
+.table__cell--price {
+  width: 140px;
+  position: relative;
+}
+
+.table__cell--starttime {
+  width: 140px;
+  position: relative;
+}
+
+.table__cell--endtime {
+  width: 140px;
+  position: relative;
+}
+
+.table__cell--action {
+  width: 210px;
+  position: relative;
+}
+
+.cell__action__icon {
+  cursor: pointer;
+}
+
+.header__cell__icon {
+  cursor: pointer;
+} 
+
+.header__cell__icon--right {
+  position: absolute;
+  right: 0;
+}
+
+.action__menu {
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+  top: 100%;
+  width: 140px;
+  height: 120px;
+  background: var(--white);
+  border:1px solid var(--border-color);
+}
+
+.menu__body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+}
+
+.menu__item__icon {
+  margin-right: 14px;
+}
+
+.hidden {
+  display: none;
 }
