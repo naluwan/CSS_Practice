@@ -260,12 +260,18 @@ body {
   background-color: var(--main-color);
 }
 
-.main__table {
+/* .main__table {
   position: relative;
-}
+} */
 
-thead {
-  position: absolute;
+.main__table thead {
+  position: sticky;
   top:0;
+  z-index: 1;
 }
 
+.main__table__scrollview {
+  /* position: relative; */
+  height: calc(100% - 100px);
+  overflow: auto;
+}
