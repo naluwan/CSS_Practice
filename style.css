@@ -260,18 +260,13 @@ body {
   background-color: var(--main-color);
 }
 
-/* .main__table {
-  position: relative;
-} */
+.main__table__scrollview {
+  height: calc(100% - (98px + 110px));
+  overflow: auto;
+}
 
 .main__table thead {
   position: sticky;
   top:0;
   z-index: 1;
-}
-
-.main__table__scrollview {
-  /* position: relative; */
-  height: calc(100% - 100px);
-  overflow: auto;
 }
