@@ -1,4 +1,4 @@
-const tbody = document.querySelector('.table__body')
+const tbody = document.querySelector('tbody')
 const darkModeToggle = document.querySelector('#dark__mode__toggle')
 const checkBox = document.querySelector('.table__cell--checkbox')
 
